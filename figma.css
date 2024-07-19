@@ -1,0 +1,86 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.figma1{
+    @apply flex justify-evenly mb-[150px];
+}
+.figma1__pics{
+    @apply space-x-5 px-[100px];
+}
+.com-font{
+    @apply font-medium text-gray-600;
+}
+.com-font__cards{
+    @apply text-base text-center;
+    
+}
+.names__cards{
+    @apply text-xl font-bold text-center text-gray-800;
+}
+.image__cards{
+    @apply w-[250px] h-[300px] object-cover mb-5 rounded-2xl rounded-b-none;
+}
+.big-title{
+    @apply text-5xl font-bold text-gray-800;
+}
+.big-title--bigger{
+    @apply text-6xl font-bold text-gray-800;
+}
+.blue-title{
+    @apply font-medium text-blue-500;
+}
+.blue-title__btn{
+    @apply px-[40px] py-[15px] rounded-md border border-blue-400;
+}
+.blue__btn{
+    @apply text-gray-100 bg-blue-400 px-[30px] py-[15px] rounded-md font-medium;
+}
+.experts__card{
+    @apply grid grid-cols-2 px-[100px] mb-[200px];
+}
+.experts__card--img{
+    @apply h-[500px] rounded-lg;
+}
+.experts__card--text{
+    @apply mt-[100px] ml-[50px] space-y-[40px];
+}
+.experts__card--red{
+    @apply bg-red-500 h-[8px] w-[100px];
+}
+.header{
+    @apply mt-[30px];
+}
+.header--core{
+    @apply text-2xl font-bold ml-[50px];
+}
+.header--details{
+    @apply flex space-x-5;
+}
+.header--btns{
+    @apply space-x-10;
+}
+.welcome{
+    @apply space-y-8 ml-[120px] mb-[150px];
+}
+.welcome__text{
+    @apply text-xl;
+}
+.welcome__btns{
+    @apply space-x-[10px];
+}
+.team-intro{
+    @apply space-y-5 ml-[100px] mb-[80px];
+}
+.footer{
+    @apply mb-[100px] text-center;
+}
+.footer-text{
+    @apply space-y-5;
+}
+.footer__input{
+    @apply border border-gray-600 h-[50px] w-[500px];
+}
